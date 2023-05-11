@@ -1,0 +1,148 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+Integer counter3 = 0;
+
+
+void _fastcall Emptyspotchecker(TButton* button1,TButton* button2)
+{
+	if(button2->Caption == "" )
+	{
+	   button2->Caption = button1->Caption;
+	   button1->Caption="";
+	}
+}
+//---------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnum1Click(TObject *Sender)
+{
+	Emptyspotchecker(btnum1,btnum2);
+	Emptyspotchecker(btnum1,btnum3);
+	counter3 = 1 + counter3;
+	numberofbl->Caption = counter3;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnum2Click(TObject *Sender)
+{
+	Emptyspotchecker(btnum2,btnum1);
+	Emptyspotchecker(btnum2,btnum4);
+	counter3 = 1 + counter3;
+	numberofbl->Caption = counter3;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnum3Click(TObject *Sender)
+{
+	Emptyspotchecker(btnum3,btnum1);
+	Emptyspotchecker(btnum3,btnum4);
+	counter3 = 1 + counter3;
+	numberofbl->Caption = counter3;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnum4Click(TObject *Sender)
+{
+	Emptyspotchecker(btnum4,btnum3);
+	Emptyspotchecker(btnum4,btnum2);
+	counter3 = 1 + counter3;
+	numberofbl->Caption = counter3;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnexitClick(TObject *Sender)
+{
+	 Close();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnresetClick(TObject *Sender)
+{
+     	 numberofbl->Caption = "0";
+	 counter3 = 0 ;
+
+	 int bnum[3] , i ,j , rowchecker;
+	 bool flag = false;
+		  i = 1;
+	 do
+	 {
+		 Randomize();
+		 rowchecker  =  (Random(3))+ 1;
+
+		 for ( j=1;j<= i;j++)
+		 {
+			 if(bnum[j] == rowchecker)
+			 {
+			 flag = true;
+			 break;
+			 }
+		 }
+
+		 if(flag == true)
+		 {
+			flag = false;
+		 }
+		 else
+		 {
+			 bnum[i] = rowchecker;
+			 i = i + 1;
+		 }
+	 }
+
+	 while (i<=3);
+
+	  btnum1 ->Caption =(bnum[1]);
+	  btnum2 ->Caption =(bnum[2]);
+	  btnum3 ->Caption =(bnum[3]);
+	  btnum4 ->Caption ="";
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+	 numberofbl->Caption = "0";
+	 counter3 = 0 ;
+
+	 int bnum[3] , i ,j , rowchecker;
+	 bool flag = false;
+		  i = 1;
+	 do
+	 {
+		 Randomize();
+		 rowchecker  =  (Random(3))+ 1;
+
+		 for ( j=1;j<= i;j++)
+		 {
+			 if(bnum[j] == rowchecker)
+			 {
+			 flag = true;
+			 break;
+			 }
+		 }
+
+		 if(flag == true)
+		 {
+			flag = false;
+		 }
+		 else
+		 {
+			 bnum[i] = rowchecker;
+			 i = i + 1;
+		 }
+	 }
+
+	 while (i<=3);
+
+	  btnum1 ->Caption =(bnum[1]);
+	  btnum2 ->Caption =(bnum[2]);
+	  btnum3 ->Caption =(bnum[3]);
+	  btnum4 ->Caption ="";
+}
+//---------------------------------------------------------------------------

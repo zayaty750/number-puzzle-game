@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/22 11:36:21.000.837,=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/05/22 11:36:21.000.462,=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/05/22 11:37:29.000.805,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\shuffle.cpp</Transaction>
+    <Transaction>2022/05/22 11:37:29.000.805,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\shuffle.dfm</Transaction>
+    <Transaction>2022/05/22 11:37:29.000.805,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\shuffle.h</Transaction>
+    <Transaction>2022/05/22 11:37:37.000.337,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Project1PCH1.h</Transaction>
+    <Transaction>2022/05/22 11:37:39.000.947,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Project1.cbproj</Transaction>
+    <Transaction>2022/05/22 12:24:00.000.911,=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Unit2.cpp</Transaction>
+    <Transaction>2022/05/22 12:42:30.000.623,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Unit2.h=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Secondlevel.h</Transaction>
+    <Transaction>2022/05/22 12:42:30.000.623,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Unit2.cpp=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Secondlevel.cpp</Transaction>
+    <Transaction>2022/05/22 12:42:30.000.623,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Unit2.dfm=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Secondlevel.dfm</Transaction>
+    <Transaction>2022/05/22 12:56:04.000.557,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\shuffle.dfm=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Firstlevel.dfm</Transaction>
+    <Transaction>2022/05/22 12:56:04.000.557,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\shuffle.cpp=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Firstlevel.cpp</Transaction>
+    <Transaction>2022/05/22 12:56:04.000.557,C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\shuffle.h=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Firstlevel.h</Transaction>
+    <Transaction>2022/05/24 01:54:04.000.454,=C:\Users\Zeyad\OneDrive\Documents\Embarcadero\Studio\Projects\ccp_shuffle\Unit1.cpp</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="Secondlevel.cpp"/>
+    <File Path="Secondlevel.cpp"/>
+    <File Path="Secondlevel.dfm"/>
+    <File Path="Secondlevel.h"/>
+    <File Path="Firstlevel.cpp"/>
+    <File Path="Firstlevel.cpp"/>
+    <File Path="Firstlevel.dfm"/>
+    <File Path="Firstlevel.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,37 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+Integer counter3 = 0;
+
+
+void _fastcall Emptyspotchecker(TButton* button1,TButton* button2)
+{
+	if(button2->Caption == "" )
+	{
+	   button2->Caption = button1->Caption;
+	   button1->Caption="";
+	}
+}
+//---------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::btnum1Click(TObject *Sender)
+{
+    Emptyspotchecker(btnum1,btnum2);
+	Emptyspotchecker(btnum1,btnum5);
+	counter = 1 + counter;
+	numberofbl->Caption = counter;
+}
+//---------------------------------------------------------------------------
